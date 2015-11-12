@@ -18,21 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="País" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hll-vk-Hux">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hll-vk-Hux">
                                 <rect key="frame" x="70" y="204" width="181" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yog-MN-1Ka">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yog-MN-1Ka">
                                 <rect key="frame" x="70" y="273" width="197" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEO-WA-Eob">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEO-WA-Eob">
                                 <rect key="frame" x="70" y="106" width="181" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.96474383281480458" green="0.98114703001158055" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -47,14 +47,15 @@
                         <animations/>
                         <color key="backgroundColor" red="0.0" green="0.61581165139211613" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Yog-MN-1Ka" firstAttribute="top" secondItem="hll-vk-Hux" secondAttribute="bottom" constant="48" id="ADg-6d-oCD"/>
+                            <constraint firstItem="Yog-MN-1Ka" firstAttribute="leading" secondItem="qEO-WA-Eob" secondAttribute="leading" id="84o-Cm-xM7"/>
                             <constraint firstItem="qEO-WA-Eob" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="CGk-qr-sK1"/>
                             <constraint firstItem="hll-vk-Hux" firstAttribute="trailing" secondItem="qEO-WA-Eob" secondAttribute="trailing" id="H2c-LX-7Zm"/>
-                            <constraint firstItem="Yog-MN-1Ka" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="253" id="MaG-kB-vBT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Yog-MN-1Ka" secondAttribute="trailing" constant="33" id="TXL-vG-bRX"/>
-                            <constraint firstItem="hll-vk-Hux" firstAttribute="leading" secondItem="Yog-MN-1Ka" secondAttribute="leading" id="U6V-KW-Da3"/>
+                            <constraint firstItem="Yog-MN-1Ka" firstAttribute="top" secondItem="hll-vk-Hux" secondAttribute="bottom" constant="48" id="QJg-NU-bUT"/>
                             <constraint firstItem="qEO-WA-Eob" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="86" id="d5N-r9-LA6"/>
-                            <constraint firstItem="Yog-MN-1Ka" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="e0Z-b7-m4x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yog-MN-1Ka" secondAttribute="trailing" constant="37" id="gQT-rP-cxF"/>
+                            <constraint firstItem="Yog-MN-1Ka" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sd4-9A-nPZ"/>
+                            <constraint firstItem="Yog-MN-1Ka" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="54" id="v8m-3s-gWj"/>
+                            <constraint firstItem="Yog-MN-1Ka" firstAttribute="leading" secondItem="hll-vk-Hux" secondAttribute="leading" id="zis-y7-ddG"/>
                         </constraints>
                     </view>
                     <connections>
